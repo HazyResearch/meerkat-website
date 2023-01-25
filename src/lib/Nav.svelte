@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Button } from 'flowbite-svelte';
+	import { base } from "$app/paths";
 
 	let page: string = 'home';
 </script>
@@ -9,7 +10,7 @@
 	let:hidden
 	let:toggle
 >
-	<NavBrand href="/">
+	<NavBrand href="{base}/">
 		<img src="favicon.png" class="mr-3 h-10" alt="Meerkat Logo" />
 		<span class="text-violet-700 self-center whitespace-nowrap text-2xl font-light dark:text-white">
 			Meerkat
@@ -25,7 +26,7 @@
 		<NavHamburger on:click={toggle} />
 	</div>
 	<NavUl {hidden}>
-		<NavLi href="/" active={page === 'home'} activeClass="text-white md:bg-transparent">
+		<NavLi href="{base}/" active={page === 'home'} activeClass="text-white md:bg-transparent">
 			<span class:text-purple-500={page === 'home'} class="hover:text-purple-800"> Home </span>
 		</NavLi>
 		<NavLi href="https://meerkat.readthedocs.io" active={page === 'docs'}>

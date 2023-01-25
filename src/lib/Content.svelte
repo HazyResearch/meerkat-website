@@ -1,3 +1,7 @@
+<script lang="ts">
+	import { base } from '$app/paths';
+</script>
+
 <!-- Top Content Part, should remain below the navbar -->
 <section
 	class="font-rubik  bg-white dark:bg-gray-900 bg-gradient-to-br from-purple-200 via-red-200 to-orange-200 border-b border-white"
@@ -35,7 +39,6 @@
 <section
 	class="font-rubik bg-purple-50 dark:bg-gray-900 bg-gradient-to-br from-purple-200 via-red-200 to-orange-200  border-b border-white"
 >
-	<!-- Put(ONLY) Stanford, Stanford CRFM, Stanford HAI and Hazy Research logos -->
 	<div class="container px-6 py-16 mx-auto md:py-8">
 		<div class="mb-8 flex flex-col items-center">
 			<h1 class="text-4xl text-gray-800 dark:text-white">Built by</h1>

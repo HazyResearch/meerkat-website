@@ -3,7 +3,13 @@
 	import Content from '../lib/Content.svelte';
 	import Footer from '../lib/Footer.svelte';
 	import { Alert } from 'flowbite-svelte';
+
+	// import { base } from '$app/paths';
 </script>
+
+<!-- <svelte:head>
+	<link rel="stylesheet" href="{base}/app.css" />
+</svelte:head> -->
 
 <div class="flex flex-col h-screen">
 	<header class="sticky top-0 z-50">

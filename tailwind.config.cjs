@@ -1,7 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   // darkMode: 'class',
-  content: ['./src/**/*.{html,js,svelte,ts}', "./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}",],
+  content: [
+    './src/app.html',
+    './src/**/*.{html,js,svelte,ts,tsx,jsx}', 
+    "./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}"
+  ],
   theme: {
     extend:
     {

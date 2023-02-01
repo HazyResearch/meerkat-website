@@ -6,7 +6,7 @@
 </script>
 
 <Navbar
-	navClass="font-rubik px-2 sm:px-4 py-2.5 border-b border-b-2 bg-gradient-to-r from-violet-200 via-red-200 to-orange-100"
+	navClass="font-rubik px-2 sm:px-4 py-2.5 border-b border-b-2 bg-gradient-to-r from-violet-300 via-red-200 to-orange-100"
 	let:hidden
 	let:toggle
 >

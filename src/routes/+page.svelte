@@ -2,17 +2,10 @@
 	import Nav from '../lib/Nav.svelte';
 	import Content from '../lib/Content.svelte';
 	import Footer from '../lib/Footer.svelte';
-	import { Alert } from 'flowbite-svelte';
-
-	// import { base } from '$app/paths';
 </script>
 
-<!-- <svelte:head>
-	<link rel="stylesheet" href="{base}/app.css" />
-</svelte:head> -->
-
 <div class="flex flex-col h-screen">
-	<header class="sticky top-0 z-50">
+	<header class="fixed w-full top-0 z-50">
 		<Nav />
 	</header>
 	<main class="relative grow">

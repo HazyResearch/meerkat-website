@@ -6,6 +6,6 @@
 		href="https://github.com/robustness-gym/meerkat"
 		class="text-gray-700 dark:text-gray-200 bg-purple-50 hover:bg-purple-200 border border-purple-200 rounded-lg p-2 shadow-lg shadow-purple-900 "
 	>
-		<span class="text-md">&#127775 us on GitHub!</span>
+		<span class="text-md">&#127775 star us on GitHub!</span>
 	</a>
 </div>

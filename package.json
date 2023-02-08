@@ -39,6 +39,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@meerkat-ml/meerkat": "^0.0.2-i"
+		"@meerkat-ml/meerkat": "^0.2.2"
 	}
 }

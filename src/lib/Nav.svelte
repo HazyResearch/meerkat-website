@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Button } from 'flowbite-svelte';
-	import { base } from "$app/paths";
+	import { base } from '$app/paths';
+	import { Button, Navbar, NavBrand, NavHamburger, NavLi, NavUl } from 'flowbite-svelte';
 
-	let page: string = 'home';
+	export let page: string = 'home';
 </script>
 
 <Navbar
@@ -28,6 +28,11 @@
 	<NavUl {hidden}>
 		<NavLi href="{base}/" active={page === 'home'} activeClass="text-white md:bg-transparent">
 			<span class:text-purple-500={page === 'home'} class="hover:text-purple-800"> Home </span>
+		</NavLi>
+		<NavLi href="{base}/blog" active={page === 'blog'}>
+			<span class:text-purple-500={page === 'blog'} class="text-purple-500 hover:text-purple-800">
+				Blog
+			</span>
 		</NavLi>
 		<NavLi href="https://meerkat.readthedocs.io" active={page === 'docs'}>
 			<span class:text-purple-500={page === 'docs'} class="text-purple-500 hover:text-purple-800">
